@@ -15,7 +15,9 @@
  */
 
 repositories {
-  mavenLocal()()
+    maven {
+        url "http://repo.mycompany.com/maven2"
+    }
 }
 
 repositories {
