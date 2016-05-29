@@ -14,6 +14,16 @@
  * limitations under the License.
  */
 
+repositories {
+  mavenLocal()()
+}
+
+repositories {
+   ivy {
+        url "http://repo.mycompany.com/repo"
+    }
+}
+
 buildscript {
     repositories {
         mavenCentral()
